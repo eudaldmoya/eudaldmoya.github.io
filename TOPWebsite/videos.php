@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.png">
+    <title>Twenty One Pilots | Videos</title>
+
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="//db.onlinewebfonts.com/c/fd6e6c30c7d355528ba9428eea942445?family=Futura" rel="stylesheet" type="text/css" />
+    <script src="js/funciones2.js"></script>
+</head>
+<?php
+    //hello
+    ?>
+<body style="background-image: url(img/concert_bg.jpg)" class="imagebg">
+
+    <nav class="navbar navbar-expand-md navbar-dark barranav fixed-top mt-3 pt-3">
+        <div class="colorbg">
+            <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/21-Pilots-Logo.png" alt="logo" width="66px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto mx-auto w-auto justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="presentation.php">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="discs.php">Discs</a>
+                    </li>
+                    <a class="navbar-brand" href="home.php">
+                        <img src="img/21-Pilots-Logo.png" alt="logo" width="66px;">
+                    </a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="videos.php">Videos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="concerts.php">Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <div class="popup">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h3>Sorry for bothering you, but here you have a little ad</h3>
+                        <video id="videoad" class="img-fluid videoad pt-5">
+                            <source src="videos/Spotify%20-%20Dinner.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="fadepage2">
+            <div class="container pt-5 mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <img src="img/LevelofConcern.png" width="500px">
+                        <p class="songnames1">live from outside</p>
+                        <video id="video1" class="img-fluid" width="750px">
+                            <source src="videos/twenty-one-pilots-level-of-concern-official-video.mp4" type="video/mp4">
+                        </video>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <progress id="progress1" max="100" value="0" width="50%">Progress</progress>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div id="buttonbar1" class="row">
+                            <div class="col-md-4"></div>
+                            <button class="button col-md-1" id="restart1"><img src="svg/again.svg" width="25px"></button>
+                            <button class="button col-md-1" id="rew1"><img src="svg/rewind.svg" width="25px"></button>
+                            <button class="button col-md-1" id="play1"><img src="svg/play.svg" width="16px"></button>
+                            <button class="button col-md-1" id="fastFwd1"><img src="svg/next.svg" width="25px"></button>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <a href="https://top.lnk.to/LoClfo" target="_blank"><input type="button" value="GET IT NOW!" class="buy1 mt-5 buy11"></a>
+                    </div>
+
+                </div>
+                <div id="trench_album">
+                    <div class="row mt-5 pt-5 album"><img src="img/trench.png" width="400px"></div>
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <p class="songnames2">Jumpsuit</p>
+                            <video id="video21" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-jumpsuit-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress21" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar21" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart21"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew21"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play21"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd21"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="songnames2">Levitate</p>
+                            <video id="video22" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-levitate-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress22" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar22" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart22"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew22"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play22"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd22"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="origen" id="origen"></div>
+                        <div class="col-md-4">
+                            <p class="songnames2">Morph</p>
+                            <video id="video23" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-morph-official-audio.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress23" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar23" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart23"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew23"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play23"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd23"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://twentyonepilots.warnerartists.net/es/bandana-cd-bundle.php" target="_blank"><input type="button" value="BUY NOW!" class="buy2 mt-5 buy21"></a>
+                </div>
+                <div id="blurryface_album">
+                    <div class="row mt-5 pt-5 album"><img src="img/BLURRYFACE.png" width="400px"></div>
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <p class="songnames3">Heavydirtysoul</p>
+                            <video id="video31" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-heavydirtysoul-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress31" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar31" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart31"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew31"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play31"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd31"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="songnames3">Stressed Out</p>
+                            <video id="video32" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-stressed-out-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress32" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar32" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart32"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew32"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play32"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd32"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="songnames3">Ride</p>
+                            <video id="video33" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-ride-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress33" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar33" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart33"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew33"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play33"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd33"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://www.amazon.es/Blurryface-Vinilo-Twenty-One-Pilots/dp/B010T34MLU/ref=pd_lpo_15_t_0/259-1374252-5961753?_encoding=UTF8&pd_rd_i=B010T34MLU&pd_rd_r=82b076f1-5e61-4ea9-8e23-eb58edad14b4&pd_rd_w=V6CDQ&pd_rd_wg=4KLxC&pf_rd_p=4221015a-01c7-4a3d-a84d-985d938e9995&pf_rd_r=X5NJTM8KCBDBG0141Y6N&psc=1&refRID=X5NJTM8KCBDBG0141Y6N" target="_blank"><input type="button" value="BUY NOW!" class="buy3 mt-5 buy31"></a>
+                </div>
+                <div id="vessel_album" class="pb-5 mb-5">
+                    <div class="row mt-5 pt-5 pb-5 mb-5 album"><img src="img/vessel.png" width="400px"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="songnames4">Ode to sleep</p>
+                            <video id="video41" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-ode-to-sleep-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress41" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar41" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart41"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew41"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play41"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd41"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="songnames4">Holding on to you</p>
+                            <video id="video42" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-holding-on-to-you-official-video.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress42" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar42" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart42"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew42"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play42"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd42"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="songnames4">Migraine</p>
+                            <video id="video43" class="img-fluid" width="750px">
+                                <source src="videos/twenty-one-pilots-migraine-official-video-1080p.mp4" type="video/mp4">
+                            </video>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <progress id="progress43" max="100" value="0" width="50%">Progress</progress>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                            <div id="buttonbar43" class="row">
+                                <div class="col-md-2"></div>
+                                <button class="button col-md-2" id="restart43"><img src="svg/again.svg" width="25px"></button>
+                                <button class="button col-md-2" id="rew43"><img src="svg/rewind.svg" width="25px"></button>
+                                <button class="button col-md-2" id="play43"><img src="svg/play.svg" width="16px"></button>
+                                <button class="button col-md-2" id="fastFwd43"><img src="svg/next.svg" width="25px"></button>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.amazon.es/Vessel-Twenty-One-Pilots/dp/B00A50PDDY" target="_blank"><input type="button" value="BUY NOW!" class="buy4 mt-5 mb-5 buy41"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <footer class="footer pt-2">
+        <div class="row mt-2">
+            <div class="col-md-5 ml-5 cookies">
+                <a>© 2020 COPYRIGHT FBR AND TØP<br>
+                    <a class="copyrights" href="https://www.fueledbyramen.com/terms-use" target="_blank"> TERMS OF USE </a>| <a class="copyrights" href="https://www.twentyonepilots.com/privacy-policy" target="_blank">PRIVACY POLICY </a>| <a class="copyrights" href="https://www.fueledbyramen.com/privacy-policy#adchoices" target="_blank">AD CHOICES </a>| <a class="copyrights" href="https://www.wminewmedia.com/cookies-policy/?ot=2d0f7906-3ac6-4489-8eda-8c78f68890c3&url=www.twentyonepilots.com" target="_blank">COOKIES POLICY</a>|<a class="copyrights" href="https://cookiepedia.co.uk/" target="_blank"> COOKIES SETTINGS</a></a>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4 mb-3">
+                <p class="find">find us on:</p>
+                <a href="https://www.instagram.com/twentyonepilots/" target="_blank"><img src="svg/instagram.svg" class="icon"></a>
+                <a href="https://www.facebook.com/twentyonepilots" target="_blank"><img src="svg/facebook.svg" class="icon"></a>
+                <a href="https://twitter.com/twentyonepilots" target="_blank"><img src="svg/signo-de-twitter.svg" class="icon"></a>
+                <a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw" target="_blank"><img src="svg/logotipo-de-youtube.svg" class="icon"></a>
+                <a href="https://twentyonepilots.tumblr.com/" target="_blank"><img src="svg/logotipo-de-tumblr.svg" class="icon"></a>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

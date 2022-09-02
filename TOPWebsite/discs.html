@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.png">
+    <title>Twenty One Pilots | Discs</title>
+
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <script src="js/funcionesdisc.js"></script>
+</head>
+
+<body style="background-image: url(img/concert_bg.jpg)" class="imagebg">
+
+    <nav class="navbar navbar-expand-md navbar-dark barranav fixed-top mt-3 pt-3">
+        <div class="colorbg">
+            <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/21-Pilots-Logo.png" alt="logo" width="66px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto mx-auto w-auto justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="presentation.html">Information</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="discs.html">Discs</a> <span class="sr-only">(current)</span>
+                    </li>
+                    <a class="navbar-brand" href="home.html">
+                        <img src="img/21-Pilots-Logo.png" alt="logo" width="66px;">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="concerts.html">Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myModal1" class="modal row mt-5 pt-5">
+        <div class="modal-content2">
+            <div class="popup">
+                <input type="button" id="closetabp" class="closetab col-md-4" value="&times">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        We see you like this song!<br><br><br>
+                        <img src="img/LevelofConcern.png" width="500px" class="img-fluid"><br><br><br>
+                        Why don't you buy the CD?<br>
+                        <a href="https://top.lnk.to/LoClfo" target="_blank"><input type="button" value="GET IT NOW!" class="buy1 mt-5 buy11"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal row mt-5 pt-5">
+        <div class="modal-content2">
+            <div class="popup">
+                <input type="button" id="closetab" class="closetab col-md-4" value="&times">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        We see you like you like the songs from the album!<br><br><br>
+                        <img src="img/trench.png" width="400px" class="img-fluid"><br><br><br>
+                        Why don't you buy the full album?<br>
+                        <a href="https://twentyonepilots.warnerartists.net/es/bandana-cd-bundle.html" target="_blank"><input type="button" value="BUY NOW!" class="buy2 mt-5 buy21"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal3" class="modal row mt-5 pt-5">
+        <div class="modal-content2">
+            <div class="popup">
+                <input type="button" id="closetab2" class="closetab col-md-4" value="&times">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        We see you like you like the songs from the album!<br><br><br>
+                        <img src="img/BLURRYFACE.png" width="400px" class="img-fluid"><br><br><br>
+                        Why don't you buy the full album?<br>
+                        <a href="https://twentyonepilots.warnerartists.net/es/blurryface-cd-jewel-case.html" target="_blank"><input type="button" value="BUY NOW!" class="buy3 mt-5 buy31"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal4" class="modal row mt-5 pt-5">
+        <div class="modal-content2">
+            <div class="popup">
+                <input type="button" id="closetab3" class="closetab col-md-4" value="&times">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        We see you like you like the songs from the album!<br><br>
+                        <img src="img/vessel.png" width="300px" class="img-fluid"><br><br>
+                        Why don't you buy the full album?<br>
+                        <a href="https://twentyonepilots.warnerartists.net/es/vessel-cd-album.html" target="_blank"><input type="button" value="BUY NOW!" class="buy4 mt-5 mb-5 buy41"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container fadepage2">
+        <div class="container pt-5 mb-5 mt-5">
+            <div id="levelofconcern">
+                <div class="row mt-5 pt-5 album"><img src="img/LevelofConcern.png" width="500px"></div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/locara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-3">
+                        <p class="songnames11">Level of Concern</p>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio1" width="250px va">
+                            <source src="audios/twenty%20one%20pilots%20-%20Level%20of%20Concern%20(lyric%20video).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+
+            </div>
+            <div id="trench_album">
+                <div class="row mt-5 pt-5 album"><img src="img/trench.png" width="400px"></div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/trenchcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames2">Jumpsuit</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio11" width="250px va">
+                            <source src="audios/twenty_one_pilots_jumpsuit_hq_audio_4484369778184807880.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/trenchcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames2">Chlorine</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio12" width="750px">
+                            <source src="audios/twenty_one_pilots_chlorine_audio_2824146662324360377.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/trenchcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames2">MyBlood</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio13" width="750px">
+                            <source src="audios/twenty_one_pilots_my_blood_hq_audio_7096097203464861649.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <div id="blurryface_album">
+                <div class="row mt-5 pt-5 album"><img src="img/BLURRYFACE.png" width="400px"></div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/blurrycara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames3">Heavydirtysoul</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio21" width="750px">
+                            <source src="audios/Twenty%20One%20Pilots%20-%20HeavyDirtySoul%20(Audio).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/blurrycara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames3">Lane Boy</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio22" width="750px">
+                            <source src="audios/twenty_one_pilots_lane_boy_audio_7968597258324035861.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/blurrycara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames3">Ride</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio23" width="750px">
+                            <source src="audios/twenty_one_pilots_ride_audio_-7152592122769619643.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <div id="vessel_album" class="mb-5 pb-5">
+                <div class="row mt-5 pt-5 album"><img src="img/vessel.png" width="400px"></div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/vesselcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames4">Car Radio</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio31" width="750px">
+                            <source src="audios/twenty_one_pilots_car_radio_audio_4255797575744868840.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/vesselcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames4">House of Gold</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio32" width="750px">
+                            <source src="audios/y2mate.com%20-%20House%20of%20Gold.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-1">
+                        <img src="img/vesselcara.jpg" width="75px">
+                    </div>
+                    <div class="col-md-1">
+                        <p class="songnames4">Migraine</p>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-4">
+                        <audio controls id="audio33" width="750px">
+                            <source src="audios/twenty_one_pilots_migraine_audio_-3481647461223677828.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <!--<input type="button" id="sendbtn" class="sendbtn" value="Send">-->
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="footer pt-2">
+        <div class="row mt-2">
+            <div class="col-md-5 ml-5 cookies">
+                <a>© 2020 COPYRIGHT FBR AND TØP<br>
+                    <a class="copyrights" href="https://www.fueledbyramen.com/terms-use" target="_blank"> TERMS OF USE </a>| <a class="copyrights" href="https://www.twentyonepilots.com/privacy-policy" target="_blank">PRIVACY POLICY </a>| <a class="copyrights" href="https://www.fueledbyramen.com/privacy-policy#adchoices" target="_blank">AD CHOICES </a>| <a class="copyrights" href="https://www.wminewmedia.com/cookies-policy/?ot=2d0f7906-3ac6-4489-8eda-8c78f68890c3&url=www.twentyonepilots.com" target="_blank">COOKIES POLICY</a>|<a class="copyrights" href="https://cookiepedia.co.uk/" target="_blank"> COOKIES SETTINGS</a></a>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-4 mb-3">
+                <p class="find">find us on:</p>
+                <a href="https://www.instagram.com/twentyonepilots/" target="_blank"><img src="svg/instagram.svg" class="icon"></a>
+                <a href="https://www.facebook.com/twentyonepilots" target="_blank"><img src="svg/facebook.svg" class="icon"></a>
+                <a href="https://twitter.com/twentyonepilots" target="_blank"><img src="svg/signo-de-twitter.svg" class="icon"></a>
+                <a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw" target="_blank"><img src="svg/logotipo-de-youtube.svg" class="icon"></a>
+                <a href="https://twentyonepilots.tumblr.com/" target="_blank"><img src="svg/logotipo-de-tumblr.svg" class="icon"></a>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </footer>
+</body>
+
+</html>
