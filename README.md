@@ -6,3 +6,6 @@ watch videoclips and listen to albums, know their next concerts and contact them
 PHP (in Github pages, PHP is not working).
 You may realize the videos are not available, that is because this website was stored in the university server along with the videos and Github
 does not allow big files to be uploaded.
+
+
+You can also find a Landing Page built with only HTML/CSS, this consisted on copying an existing site to learn how to organize and style elements in a page.
