@@ -1,0 +1,260 @@
+@charset "utf-8";
+@import url('http://fonts.cdnfonts.com/css/silkscreen');
+@import url('http://fonts.cdnfonts.com/css/freesans-2');
+/* CSS Document */
+
+.top-title {
+	display: flex;
+	justify-content: center;
+	font-family: 'Silkscreen Expanded', sans-serif;
+	color: white;
+	font-size: 70px;
+	margin: 100px;
+}
+
+body {
+	background-color: #151515;
+}
+
+.root-wrapper {
+
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+#root {
+	width: 75vw;
+	display: flex;
+	flex-wrap: wrap;
+	padding: .5em;
+
+	align-content: space-between;
+	justify-content: center;
+}
+
+.game-card {
+	background-color: #202020;
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+	min-width: 200px;
+	height: 250px;
+	margin: 15px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	font-family: 'FreeSans', sans-serif;
+	color: white;
+	box-shadow: 0 6px 6px -3px black;
+}
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.game-img {
+	min-height: 50%;
+	max-height: 50%;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.game-title {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.game-text {
+	color: grey;
+	font-weight: 100;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+.game-rating {
+	margin-top: auto;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 10px;
+}
+
+.star-img {
+	height: 15px;
+	width: 15px;
+	margin-left: 5px;
+	margin-top: 2px;
+	display: flex;
+	align-content: center;
+}
+
+.detail-div {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(21, 21, 21, 0.7);
+}
+
+.detail-content {
+	display: flex;
+	justify-content: space-between;
+	background-color: #202020;
+	margin: auto;
+	padding: 30px;
+	border-radius: 20px;
+	width: 60%;
+	height: 400px;
+	box-shadow: 0 10px 10px -5px black;
+}
+
+.detail-image {
+	align-self: center;
+	min-height: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	min-width: 250px;
+	max-width: 30%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.detail-text {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	min-height: 100%;
+	max-height: 100%;
+	min-width: 250px;
+	max-width: 50%;
+}
+
+.detail-text-title {
+	font-family: 'FreeSans', sans-serif;
+	color: white;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.detail-text-desc {
+	font-family: 'FreeSans', sans-serif;
+	color: gray;
+	font-weight: 100;
+	font-size: 12px;
+	margin-top: 10px;
+	max-height: 72%;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+	/*box-shadow: 0 0 25px rgba(21, 21, 21, 0.25);*/
+}
+
+.detail-text-link {
+	text-decoration: none;
+	font-family: 'FreeSans', sans-serif;
+	color: #0085BB;
+	font-size: 12px;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+.close {
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+}
+
+.close-btn-img {
+	width: 35px;
+	height: 35px;
+	padding: 8px;
+	border-radius: 50px;
+	background-color: #202020;
+	cursor: pointer;
+}
+
+.close-btn-img:hover {
+	background-color: #353535;
+	transition: all .4s ease-in-out;
+}
+
+.developers-title {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Silkscreen Expanded', sans-serif;
+	color: white;
+	font-size: 40px;
+	margin: 100px;
+}
+
+.developers-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: fit-content;
+	background-color: #202020;
+	padding-bottom: 40px;
+}
+
+.developers-outcard {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	width: 80%;
+}
+
+.dev-div {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 25px;
+	background-color: #151515;
+	width: 150px;
+	height: 200px;
+	margin: 25px;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px -5px #050505;
+}
+
+.grow-dev {
+	transition: all .2s ease-in-out;
+}
+
+.grow-dev:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.dev-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+
+.dev-name {
+	font-family: 'FreeSans', sans-serif;
+	color: #757575;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+}
