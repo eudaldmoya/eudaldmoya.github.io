@@ -22,6 +22,7 @@ Tech stack:
   
 List of projects:
 
+  - <a href="https://github.com/eudaldmoya/movies-site">React app using movies API</a>
   - <a href="https://eudaldmoya.github.io/VideoGames/index">API project showing videogames</a>
   - <a href="https://eudaldmoya.github.io/TOPWebsite/index">Twenty One Pilots website</a>
   - <a href="https://eudaldmoya.github.io/LandingPage/index">Layout working on flexbox</a>
