@@ -1,20 +1,35 @@
 # eudaldmoya.github.io
 
 
-This is a project for university. Consists of a "Twenty One Pilots" website where you can visit a main page with some links and merchandise, 
-watch videoclips and listen to albums, know their next concerts and contact them. This is built with HTML/CSS (Bootstrap), Javascript and 
-PHP (in Github pages, PHP is not working).
-You may realize the videos are not available, that is because this website was stored in the university server along with the videos and Github
-does not allow big files to be uploaded.
+Hi, 
 
+My name is Eudald and for the past few years I have developed a passion for web technologies. I am still new to this world but here you'll find some of the projects I have been working on.
 
-You can also find a Landing Page built with only HTML/CSS, this consisted on copying an existing site to learn how to organize and style elements in a page.
+Tech stack:
+  - HTML/CSS
+  - Javascript
+  - React
+  - NextJS
+  - Node.js
+  - Flutter/Dart
+  - PHP
+  - MySQL
+  - C/C++
+  - C#
+  - Headless CMS (Strapi, Sanity)
+  - Wordpress (Elementor)
+  
+  
+List of projects:
 
+  - <a href="https://eudaldmoya.github.io/VideoGames/index">API project showing videogames</a>
+  - <a href="https://eudaldmoya.github.io/TOPWebsite/index">Twenty One Pilots website</a>
+  - <a href="https://eudaldmoya.github.io/LandingPage/index">Layout working on flexbox</a>
+  - <a href="https://citmalumnes.upc.es/~eudaldmf/p3_progra/home.php">Universal Studio website recreation</a>
+  - <a href="https://citmalumnes.upc.es/~eudaldmf/BD/Moya_Eudald_P04BBDD/">Simple image sharing app</a> (user: d@d.com -- password: 12345)
+  - <a href="https://citmalumnes.upc.es/~eudaldmf/BD/P03/">Second hand product selling</a>
+  - <a href="https://github.com/eudaldmoya/Heaven-s-Way-Videogame">Heaven's way videogame with Unity 3D (C#)</a>
+  - <a href="https://github.com/eudaldmoya/TimeItApp">TimeIt app to keep track of employee's working hours through a QR (Flutter)</a>
 
-I have also built some dynamic pages with PHP. I cannot post them here but you can visit them here, visiting the following links:
-
-https://citmalumnes.upc.es/~eudaldmf/p3_progra/home.php  (This is a recreation of Universal Studio Florida website).
-https://citmalumnes.upc.es/~eudaldmf/BD/Moya_Eudald_P04BBDD/ (This is a photo posting website where you can visit a feed of images people has posted, see the users profile with its own pictures, and search for words to find images (to log in use email: d@d.com and password: 12345)).
-https://citmalumnes.upc.es/~eudaldmf/BD/P03/  (This is a second hand product selling platform where you can sell and buy products and find them in their own category, you can upload new productts and buy the ones existing).
 
 
